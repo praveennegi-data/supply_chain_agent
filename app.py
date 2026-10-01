@@ -8,18 +8,13 @@ st.set_page_config(
 st.title("📦 Late Delivery Predictor")
 
 st.write(
-    "Use the AI-powered order investigation agent "
-    "to analyze delivery risk."
+    "AI-powered Supply Chain Delay Investigation Agent"
 )
 
-form_url = "https://n8n-agent-app.reddune-eb2aebd8.westus2.azurecontainerapps.io/form/new-order-risk"
+FORM_URL = "https://n8n-agent-app.reddune-eb2aebd8.westus2.azurecontainerapps.io/form/new-order-risk"
 
 st.link_button(
-    "🚀 Open Order Investigation Form",
-    form_url,
+    "🚀 Start Order Investigation",
+    FORM_URL,
     use_container_width=True
-)
-
-st.info(
-    "The form is powered by your Azure-hosted n8n agent."
 )
