@@ -12,7 +12,7 @@ st.write(
     "to analyze delivery risk."
 )
 
-form_url = "https://n8n-agent-app.reddune-eb2aebd8.westus2.azurecontainerapps.io/form-test/new-order-risk"
+form_url = "https://n8n-agent-app.reddune-eb2aebd8.westus2.azurecontainerapps.io/form/new-order-risk"
 
 st.link_button(
     "🚀 Open Order Investigation Form",
